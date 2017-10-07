@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FAF119561F8964A1003C6851 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF119551F8964A1003C6851 /* main.cpp */; };
+		FAF1195E1F8970A2003C6851 /* CRegistroSalida.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF1195C1F8970A2003C6851 /* CRegistroSalida.cpp */; };
+		FAF119611F89715F003C6851 /* CBus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF1195F1F89715F003C6851 /* CBus.cpp */; };
+		FAF119641F897250003C6851 /* CConductor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF119621F897250003C6851 /* CConductor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		FAF119521F8964A1003C6851 /* EXAMEN01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EXAMEN01; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF119551F8964A1003C6851 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FAF1195C1F8970A2003C6851 /* CRegistroSalida.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CRegistroSalida.cpp; sourceTree = "<group>"; };
+		FAF1195D1F8970A2003C6851 /* CRegistroSalida.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CRegistroSalida.hpp; sourceTree = "<group>"; };
+		FAF1195F1F89715F003C6851 /* CBus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CBus.cpp; sourceTree = "<group>"; };
+		FAF119601F89715F003C6851 /* CBus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CBus.hpp; sourceTree = "<group>"; };
+		FAF119621F897250003C6851 /* CConductor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CConductor.cpp; sourceTree = "<group>"; };
+		FAF119631F897250003C6851 /* CConductor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CConductor.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				FAF119551F8964A1003C6851 /* main.cpp */,
+				FAF1195C1F8970A2003C6851 /* CRegistroSalida.cpp */,
+				FAF1195D1F8970A2003C6851 /* CRegistroSalida.hpp */,
+				FAF1195F1F89715F003C6851 /* CBus.cpp */,
+				FAF119601F89715F003C6851 /* CBus.hpp */,
+				FAF119621F897250003C6851 /* CConductor.cpp */,
+				FAF119631F897250003C6851 /* CConductor.hpp */,
 			);
 			path = EXAMEN01;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF119611F89715F003C6851 /* CBus.cpp in Sources */,
+				FAF1195E1F8970A2003C6851 /* CRegistroSalida.cpp in Sources */,
 				FAF119561F8964A1003C6851 /* main.cpp in Sources */,
+				FAF119641F897250003C6851 /* CConductor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
