@@ -22,6 +22,7 @@ class CRegistroSalida {
     short kilometraje;
 public:
     CRegistroSalida();
+    void registrarSalida();
 };
 
 #endif /* CRegistroSalida_hpp */

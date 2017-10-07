@@ -7,3 +7,20 @@
 //
 
 #include "CBus.hpp"
+CBus::CBus() {
+    capacidadMaxima = 50;
+    placa = 0; // generar Placa.
+    cantidadPasajeros = 0;
+    conductor = nullptr; // aginar un conductor aleatorio
+}
+
+short CBus::getCantidadPasajeros() { 
+    return cantidadPasajeros;
+}
+
+char *CBus::getPlaca() { 
+    return placa;
+}
+
+
+

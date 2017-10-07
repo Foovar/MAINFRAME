@@ -10,14 +10,23 @@
 #define CBus_hpp
 
 #include <stdio.h>
+#include "CConductor.hpp"
 
 class CBus {
     short capacidadMaxima;
     char * placa;
-    char * conductor;
-    
+    short cantidadPasajeros;
+    CConductor * conductor; //  Relacion de agregacion.
+
 public:
     CBus();
+    CBus(char *, short, CConductor); // constructor sobrecargado.
+    CConductor getConductor();
+    short getCantidadPasajeros(); // Metodos Get
+    char * getPlaca();
+    
+    void setConductor(CConductor); // Metodos Set
+    void setCantidadPasajeros(short);
 };
 
 #endif /* CBus_hpp */

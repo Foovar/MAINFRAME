@@ -11,6 +11,8 @@
 		FAF1195E1F8970A2003C6851 /* CRegistroSalida.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF1195C1F8970A2003C6851 /* CRegistroSalida.cpp */; };
 		FAF119611F89715F003C6851 /* CBus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF1195F1F89715F003C6851 /* CBus.cpp */; };
 		FAF119641F897250003C6851 /* CConductor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF119621F897250003C6851 /* CConductor.cpp */; };
+		FAF119671F89754C003C6851 /* AgenteSeguridad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF119651F89754C003C6851 /* AgenteSeguridad.cpp */; };
+		FAF1196A1F897599003C6851 /* CSede.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF119681F897599003C6851 /* CSede.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		FAF119601F89715F003C6851 /* CBus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CBus.hpp; sourceTree = "<group>"; };
 		FAF119621F897250003C6851 /* CConductor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CConductor.cpp; sourceTree = "<group>"; };
 		FAF119631F897250003C6851 /* CConductor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CConductor.hpp; sourceTree = "<group>"; };
+		FAF119651F89754C003C6851 /* AgenteSeguridad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AgenteSeguridad.cpp; sourceTree = "<group>"; };
+		FAF119661F89754C003C6851 /* AgenteSeguridad.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AgenteSeguridad.hpp; sourceTree = "<group>"; };
+		FAF119681F897599003C6851 /* CSede.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSede.cpp; sourceTree = "<group>"; };
+		FAF119691F897599003C6851 /* CSede.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CSede.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 				FAF119601F89715F003C6851 /* CBus.hpp */,
 				FAF119621F897250003C6851 /* CConductor.cpp */,
 				FAF119631F897250003C6851 /* CConductor.hpp */,
+				FAF119651F89754C003C6851 /* AgenteSeguridad.cpp */,
+				FAF119661F89754C003C6851 /* AgenteSeguridad.hpp */,
+				FAF119681F897599003C6851 /* CSede.cpp */,
+				FAF119691F897599003C6851 /* CSede.hpp */,
 			);
 			path = EXAMEN01;
 			sourceTree = "<group>";
@@ -134,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF119671F89754C003C6851 /* AgenteSeguridad.cpp in Sources */,
 				FAF119611F89715F003C6851 /* CBus.cpp in Sources */,
+				FAF1196A1F897599003C6851 /* CSede.cpp in Sources */,
 				FAF1195E1F8970A2003C6851 /* CRegistroSalida.cpp in Sources */,
 				FAF119561F8964A1003C6851 /* main.cpp in Sources */,
 				FAF119641F897250003C6851 /* CConductor.cpp in Sources */,

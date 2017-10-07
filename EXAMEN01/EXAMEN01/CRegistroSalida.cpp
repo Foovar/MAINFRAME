@@ -7,3 +7,8 @@
 //
 
 #include "CRegistroSalida.hpp"
+
+
+void CRegistroSalida::registrarSalida() { 
+    fechaSalida = 0;
+}

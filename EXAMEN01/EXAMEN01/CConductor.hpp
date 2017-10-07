@@ -11,11 +11,11 @@
 
 #include <stdio.h>
 
-class <#class name#> {
-    <#instance variables#>
+class CConductor {
+    char * nombre;
     
 public:
-    <#member functions#>
+    CConductor();
 };
 
 #endif /* CConductor_hpp */
