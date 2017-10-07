@@ -7,15 +7,21 @@
 //
 
 #include "CSede.hpp"
-
-
-CSede::CSede(char * nombre){
+#include "AgenteSeguridad.hpp"
+#include <iostream>
+CSede::CSede(std::string  nombre){
+    this->agente = new CAgenteSeguridad();
     this->nombre = nombre;
 }
 
-char * CSede::getNombre() {
+std::string  CSede::getNombre() {
     return this->nombre;
 }
+
+CAgenteSeguridad * CSede::getAgente() {
+    return this->agente;
+}
+
 
 
  

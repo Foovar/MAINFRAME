@@ -8,14 +8,16 @@
 
 #ifndef CConductor_hpp
 #define CConductor_hpp
-
+#include <iostream>
 #include <stdio.h>
 
 class CConductor {
-    char * nombre;
-    
+    std::string nombre;
+    std::string dni;
 public:
     CConductor();
+    CConductor(std::string);
+    std::string getNombre();
 };
 
 #endif /* CConductor_hpp */

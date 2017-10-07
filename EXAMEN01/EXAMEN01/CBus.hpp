@@ -8,22 +8,22 @@
 
 #ifndef CBus_hpp
 #define CBus_hpp
-
+#include <iostream>
 #include <stdio.h>
 #include "CConductor.hpp"
 
 class CBus {
     short capacidadMaxima;
-    char * placa;
+    std::string placa;
     short cantidadPasajeros;
     CConductor * conductor; //  Relacion de agregacion.
 
 public:
     CBus();
-    CBus(char *, short, CConductor); // constructor sobrecargado.
+    CBus(std::string, short, CConductor); // constructor sobrecargado.
     CConductor getConductor();
     short getCantidadPasajeros(); // Metodos Get
-    char * getPlaca();
+    std::string getPlaca();
     
     void setConductor(CConductor); // Metodos Set
     void setCantidadPasajeros(short);

@@ -7,3 +7,20 @@
 //
 
 #include "CConductor.hpp"
+#include <iostream>
+
+CConductor::CConductor() { 
+    nombre = "";
+    dni = "";
+}
+
+CConductor::CConductor(std::string nombre) {
+    this->nombre = nombre;
+    dni = "";
+}
+
+std::string CConductor::getNombre() { 
+    return this->nombre;
+}
+
+

@@ -8,21 +8,22 @@
 
 #ifndef CRegistroSalida_hpp
 #define CRegistroSalida_hpp
-
+#include <iostream>
 #include <stdio.h>
+#include "CConductor.hpp"
 
 class CRegistroSalida {
     short fechaSalida;
     short horaSalida;
-    char * placa;
-    char * nombreConductor;
+    std::string placa;
+    std::string nombreConductor;
     short cantidadPasajeros;
-    char * campusOrigin;
-    char * campusLlegada;
+    std::string campusOrigin;
+    std::string campusLlegada;
     short kilometraje;
 public:
     CRegistroSalida();
-    void registrarSalida();
+    CRegistroSalida(short, short, std::string, CConductor, short, std::string, std::string, short);
 };
 
 #endif /* CRegistroSalida_hpp */

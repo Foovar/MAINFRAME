@@ -8,17 +8,21 @@
 
 #ifndef CSede_hpp
 #define CSede_hpp
-
+#include <iostream>
 #include <stdio.h>
 #include "CBus.hpp"
+#include "AgenteSeguridad.hpp"
 
 class CSede{
     CBus * buses;
-    char * nombre;
+    std::string nombre;
+    CAgenteSeguridad * agente;
+    
 public:
     CSede();
-    CSede(char * nombre);
-    char * getNombre();
+    CSede(std::string nombre);
+    std::string getNombre();
+    CAgenteSeguridad * getAgente();
     
     void agregarBus();
 };
