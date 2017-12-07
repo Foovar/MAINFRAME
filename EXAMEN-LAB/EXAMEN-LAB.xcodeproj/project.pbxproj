@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA4473701FD9F2A7008A08E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA44736F1FD9F2A7008A08E4 /* main.cpp */; };
+		FA4473791FD9F572008A08E4 /* miclase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4473771FD9F572008A08E4 /* miclase.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		FA44736C1FD9F2A7008A08E4 /* EXAMEN-LAB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "EXAMEN-LAB"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA44736F1FD9F2A7008A08E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA4473771FD9F572008A08E4 /* miclase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = miclase.cpp; sourceTree = "<group>"; };
+		FA4473781FD9F572008A08E4 /* miclase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = miclase.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		FA44736E1FD9F2A7008A08E4 /* EXAMEN-LAB */ = {
 			isa = PBXGroup;
 			children = (
+				FA4473761FD9F55F008A08E4 /* class */,
 				FA44736F1FD9F2A7008A08E4 /* main.cpp */,
 			);
 			path = "EXAMEN-LAB";
+			sourceTree = "<group>";
+		};
+		FA4473761FD9F55F008A08E4 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				FA4473771FD9F572008A08E4 /* miclase.cpp */,
+				FA4473781FD9F572008A08E4 /* miclase.hpp */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4473791FD9F572008A08E4 /* miclase.cpp in Sources */,
 				FA4473701FD9F2A7008A08E4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
