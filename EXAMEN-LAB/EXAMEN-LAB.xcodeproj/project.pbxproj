@@ -60,6 +60,7 @@
 		FA44736E1FD9F2A7008A08E4 /* EXAMEN-LAB */ = {
 			isa = PBXGroup;
 			children = (
+				FA4473811FDA220B008A08E4 /* EJERCICIO02 */,
 				FA44737A1FDA0F5C008A08E4 /* EJERCICIO01 */,
 				FA44736F1FD9F2A7008A08E4 /* main.cpp */,
 			);
@@ -73,6 +74,13 @@
 				FA44737C1FDA0F95008A08E4 /* NotasAleatorias.hpp */,
 			);
 			path = EJERCICIO01;
+			sourceTree = "<group>";
+		};
+		FA4473811FDA220B008A08E4 /* EJERCICIO02 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EJERCICIO02;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
