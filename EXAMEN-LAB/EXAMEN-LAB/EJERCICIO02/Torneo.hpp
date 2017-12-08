@@ -21,6 +21,11 @@ class TorneoDelPoder {
 public:
     TorneoDelPoder();
     void NuevoParticipante(std::string nombre, int ki);
+    int CantidadPeleasJugador();
+    char GrupoMasFuertes();
+    void JugadoresSiguienteRonda();
+    void OrdenarPorKi();
+    void MostrarJugadores();
 };
 
 #endif /* Torneo_hpp */

@@ -19,3 +19,22 @@ do {
 
 
 int * notas = new int[max];
+int totalA = 0, totalD = 0;
+// generar notas 
+for(int i = 0; i < max; i++){
+   notas[i] = rand() % 7 + (13 - 7  + 1);
+   
+   if(this->notas[i] > 10) totalA++;
+   else totalD++;
+	
+}
+
+// imprimir notas
+
+for(int i = 0; i < max; i++){
+    std::cout <<  i << "=" << notas[i] << std::endl;
+}
+
+
+std::cout << "Total aprobados: " << totalA <<std::endl;
+std::cout << "Total desaprobados: " << totalD  <<std::endl;
