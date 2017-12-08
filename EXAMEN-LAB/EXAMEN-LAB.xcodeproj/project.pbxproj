@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA4473701FD9F2A7008A08E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA44736F1FD9F2A7008A08E4 /* main.cpp */; };
 		FA44737D1FDA0F95008A08E4 /* NotasAleatorias.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA44737B1FDA0F95008A08E4 /* NotasAleatorias.cpp */; };
+		FA44738A1FDA22AD008A08E4 /* Torneo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4473881FDA22AD008A08E4 /* Torneo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,10 @@
 		FA44736F1FD9F2A7008A08E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA44737B1FDA0F95008A08E4 /* NotasAleatorias.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NotasAleatorias.cpp; sourceTree = "<group>"; };
 		FA44737C1FDA0F95008A08E4 /* NotasAleatorias.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NotasAleatorias.hpp; sourceTree = "<group>"; };
+		FA4473831FDA2285008A08E4 /* Participante.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Participante.hpp; sourceTree = "<group>"; };
+		FA4473861FDA229D008A08E4 /* Grupo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Grupo.hpp; sourceTree = "<group>"; };
+		FA4473881FDA22AD008A08E4 /* Torneo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Torneo.cpp; sourceTree = "<group>"; };
+		FA4473891FDA22AD008A08E4 /* Torneo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Torneo.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,10 @@
 		FA4473811FDA220B008A08E4 /* EJERCICIO02 */ = {
 			isa = PBXGroup;
 			children = (
+				FA4473831FDA2285008A08E4 /* Participante.hpp */,
+				FA4473861FDA229D008A08E4 /* Grupo.hpp */,
+				FA4473881FDA22AD008A08E4 /* Torneo.cpp */,
+				FA4473891FDA22AD008A08E4 /* Torneo.hpp */,
 			);
 			path = EJERCICIO02;
 			sourceTree = "<group>";
@@ -142,6 +151,7 @@
 			files = (
 				FA44737D1FDA0F95008A08E4 /* NotasAleatorias.cpp in Sources */,
 				FA4473701FD9F2A7008A08E4 /* main.cpp in Sources */,
+				FA44738A1FDA22AD008A08E4 /* Torneo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
