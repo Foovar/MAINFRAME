@@ -7,9 +7,23 @@
 //
 
 #include <iostream>
+#include "EJERCICIO01/NotasAleatorias.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, Cabro\n";
+    
+    int option;
+    
+    do {
+        std::cout << "Ingresa la cantidad de notas a generar." << std::endl;
+        std::cin >> option;
+        
+        
+        //system("clear");
+    }while (option != 0);
+    
+    
+    
+    
+    
     return 0;
 }
