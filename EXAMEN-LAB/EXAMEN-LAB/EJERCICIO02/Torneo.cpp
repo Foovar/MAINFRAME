@@ -29,3 +29,8 @@ TorneoDelPoder::TorneoDelPoder(){
 void TorneoDelPoder::NuevoParticipante(std::string nombre, int ki){
     this->tablaPeleadores.push_back(new Participante((int)this->tablaPeleadores.size()+1 , ki, nombre));
 }
+
+void TorneoDelPoder::NuevaPelea(){
+    
+}
+

@@ -20,12 +20,15 @@ class TorneoDelPoder {
     
 public:
     TorneoDelPoder();
+    void NuevaPelea();
     void NuevoParticipante(std::string nombre, int ki);
     int CantidadPeleasJugador();
     char GrupoMasFuertes();
     void JugadoresSiguienteRonda();
     void OrdenarPorKi();
     void MostrarJugadores();
+    Participante obtenerParticipanteRandom();
+    Grupo obtenerGrupoRandom();
 };
 
 #endif /* Torneo_hpp */

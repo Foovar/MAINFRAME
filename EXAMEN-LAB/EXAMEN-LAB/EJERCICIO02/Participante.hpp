@@ -11,12 +11,13 @@
 #include "iostream"
 
 struct Participante {
-    int id, ki;
+    int id, ki, totalPeleas;
     std::string nombre;
     Participante(int a, int b, std::string c){
         this->id = a;
         this->ki = b;
         this->nombre = c;
+        totalPeleas = 0;
     }
 };
 
