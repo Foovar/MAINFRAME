@@ -1,0 +1,21 @@
+#include <stdlib.h>
+#include <time.h>
+
+
+// esto va dentro del main
+srand((int)time(NULL));
+
+
+
+int option, max = -1;
+
+
+do {
+	// este es el mensaje para pedir cantidad de notas
+	std::cout << "Ingresa la cantidad de notas"<< std::endl;
+	std::cin >> max;
+	
+}while(max < 0 || max > 30);
+
+
+int * notas = new int[max];
