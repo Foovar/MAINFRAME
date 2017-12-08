@@ -13,6 +13,11 @@
 struct Participante {
     int id, ki;
     std::string nombre;
+    Participante(int a, int b, std::string c){
+        this->id = a;
+        this->ki = b;
+        this->nombre = c;
+    }
 };
 
 #endif /* Participante_hpp */

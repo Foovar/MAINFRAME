@@ -15,12 +15,12 @@
 #include "Participante.hpp"
 
 class TorneoDelPoder {
-    std::vector<Grupo> grupos;
-    std::vector<Participante> tablaPeleadores;
+    std::vector<Grupo*> grupos;
+    std::vector<Participante*> tablaPeleadores;
     
 public:
     TorneoDelPoder();
-    
+    void NuevoParticipante(std::string nombre, int ki);
 };
 
 #endif /* Torneo_hpp */
