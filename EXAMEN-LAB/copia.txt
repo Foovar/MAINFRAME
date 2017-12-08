@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-
+int main() {
 // esto va dentro del main
 srand((int)time(NULL));
 
@@ -59,3 +59,4 @@ for(int i = desde; i > 0 ; i--){
 
 std::cout << "\t --------------------"<<std::endl;
 std::cout << "\t   :D" << "   x.x "<<std::endl;
+}
