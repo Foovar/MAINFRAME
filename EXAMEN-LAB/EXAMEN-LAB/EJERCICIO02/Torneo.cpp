@@ -34,3 +34,24 @@ void TorneoDelPoder::NuevaPelea(){
     
 }
 
+Participante TorneoDelPoder::obtenerParticipanteRandom(){
+    return *this->tablaPeleadores[rand() % this->tablaPeleadores.size()];
+}
+
+Grupo TorneoDelPoder::obtenerGrupoRandom(){
+    return *this->grupos[rand() % this->grupos.size()];
+}
+
+int TorneoDelPoder::CantidadPeleasJugador(int i){
+    return this->tablaPeleadores.at(i)->totalPeleas;
+}
+
+void TorneoDelPoder::MostrarJugadores(){
+    for(int i = 0; i < this->tablaPeleadores.size(); i++){
+        std::cout << "Peleador: " << this->tablaPeleadores.at(i)->nombre << "\t" << " Ki: " << this->tablaPeleadores.at(i)->ki << std::endl;
+    }
+}
+
+void TorneoDelPoder::OrdenarPorKi(){
+   // this->tablaPeleadores
+}

@@ -8,6 +8,8 @@
 
 #include <iostream>
 #include "EJERCICIO01/NotasAleatorias.hpp"
+#include "Torneo.hpp"
+
 void clearScreen(){
     system("clear");
 }
@@ -24,6 +26,7 @@ int main(int argc, const char * argv[]) {
     srand((int)time(NULL));
     int nejercicio = -1, a;
     NotasAleatorias * notas;
+    TorneoDelPoder * torneo;
     
 _mainMenu:
     mainMenu();
@@ -51,7 +54,8 @@ _mainMenu:
             break;
         case 2:
             clearScreen();
-            
+            torneo = new TorneoDelPoder();
+            torneo->MostrarJugadores();
             break;
         case 3:
             clearScreen();

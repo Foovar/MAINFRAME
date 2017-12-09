@@ -13,6 +13,8 @@
 #include <vector>
 #include "Grupo.hpp"
 #include "Participante.hpp"
+#include <stdlib.h>
+#include <time.h>
 
 class TorneoDelPoder {
     std::vector<Grupo*> grupos;
@@ -22,7 +24,7 @@ public:
     TorneoDelPoder();
     void NuevaPelea();
     void NuevoParticipante(std::string nombre, int ki);
-    int CantidadPeleasJugador();
+    int CantidadPeleasJugador(int id);
     char GrupoMasFuertes();
     void JugadoresSiguienteRonda();
     void OrdenarPorKi();
