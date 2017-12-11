@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		FAF61C4C1FDE4A2700F9AE52 /* EXAMEN FINAL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "EXAMEN FINAL"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF61C4F1FDE4A2700F9AE52 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FAF61C571FDE583D00F9AE52 /* ListaSimple.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListaSimple.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				FAF61C4F1FDE4A2700F9AE52 /* main.cpp */,
+				FAF61C571FDE583D00F9AE52 /* ListaSimple.hpp */,
 			);
 			path = "EXAMEN FINAL";
 			sourceTree = "<group>";

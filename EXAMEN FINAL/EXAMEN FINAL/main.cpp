@@ -7,14 +7,14 @@
 //
 
 #include <iostream>
-#include <math.h>
+#include <math.h> // es importante para hacer pow
+#include "ListaSimple.hpp"
 
-int main(int argc, const char * argv[]) {
+float ejericio01() {
+    int N; // declarar para enteros
+    float a, b, resultado = 0; // declarar a, b, resultado por que son decimales
     
-    int N;
-    float a, b, resultado = 0;
-    
-programita:
+programita: // etiqueta, es como dejar una marca para regresar hasta aqui desde mas abajo del codigo
     std::cout << "Ingrese N: "; // imprimir mensaje
     std::cin >> N; // guarda el valor ingresado en n
     std::cout << std::endl;// imprimir salto de linea para que no se vea feo
@@ -49,7 +49,19 @@ pedirB:
         resultado += (pow(a, b * (i+1)))/d; // pow es para elevar un numero  a^b
     }
     
-    std::cout << "Resultado = "<< resultado << std::endl;
+    std::cout << "Resultado = "<< resultado << std::endl; // imprimir resultado
     
+    return resultado;
+}
+
+
+int main(int argc, const char * argv[]) {
+    
+    ListaSimple<float> * lista = new ListaSimple<float>();
+    lista->Agregar( ejericio01() );
+    lista->Agregar( ejericio01() );
+    lista->Agregar( ejericio01() );
+    lista->Agregar( ejericio01() );
+
     return 0;
 }
