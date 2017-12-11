@@ -50,6 +50,11 @@ pedirB:
     // d*=2 = multiplica por 2 el que divide, es igual a d = d * 2;
     for(unsigned int i = 0, d = 2; i < N; i++, d*=2){
         resultado += (pow(a, b * (i+1)))/d; // pow es para elevar un numero  a^b
+        
+        // por si viene el de laysa seria:
+        // resultado += (pow(a, b * (i+1)))/pow(2, i+1);
+        // y el for seria = for(unsigned int i = 0; i < N; i++)
+        
     }
     
     std::cout << "Resultado = "<< resultado << std::endl; // imprimir resultado
