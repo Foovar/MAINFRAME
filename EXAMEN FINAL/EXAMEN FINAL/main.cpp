@@ -8,7 +8,10 @@
 
 #include <iostream>
 #include <math.h> // es importante para hacer pow
-#include "ListaSimple.hpp"
+#include "ListaSimple.hpp" // importante para usar listas
+#include <fstream> // es importante para usar la escritura de archivos
+
+// lo e creado un metodo para el ejericio 1 para obtener el valor de cada operacion
 
 float ejericio01() {
     int N; // declarar para enteros
@@ -51,17 +54,42 @@ pedirB:
     
     std::cout << "Resultado = "<< resultado << std::endl; // imprimir resultado
     
-    return resultado;
+    return resultado; // retorna el valor de la operacion
 }
 
 
 int main(int argc, const char * argv[]) {
     
-    ListaSimple<float> * lista = new ListaSimple<float>();
-    lista->Agregar( ejericio01() );
-    lista->Agregar( ejericio01() );
-    lista->Agregar( ejericio01() );
-    lista->Agregar( ejericio01() );
+    std::ofstream ArchivoResultados; // crear el objeto para el archivos
+    ArchivoResultados.open ("resultados.txt"); // abrir el archivo donde se va a guarda los resultados
+    
+    ListaSimple<float> * lista = new ListaSimple<float>(); // crear la lista simple <float> = es el tipo de dato que se usara por que el resultado del calculo es de tipo float, osea decimales
+    // ejecutamos 4 veces el metodo para hacer calculos
+    lista->Agregar( ejericio01() ); // lista->agregar( resultado de la operacion ) = guarda el valor en la lista
+    lista->Agregar( ejericio01() ); // igual al primero
+    lista->Agregar( ejericio01() ); // igual al primero
+    lista->Agregar( ejericio01() ); // igual al primero
 
+    Nodo<float> * elemento = lista->ObtenerInicio(); // obtenemos el inicio de la lista para empezar poder obtener los valores de la lista
+    
+    // recorremos la lista hasta que sea menor que el total de elementos osea de 0 a 3
+    for(int i = 0; i < lista->TotalElementos(); i++){
+        // << = sirve para agregar al archivo como un append, escribe el valor del elemento de la lista
+        ArchivoResultados << elemento->valor; // valor es el resultado de ejericio01
+        // esto sirve para hacer que la linea salte hacia aabajo, osea sin \n solo será (123456), pero con \n seria:
+        // 1
+        // 2
+        // 3
+        // ... hacia abajo
+        ArchivoResultados <<"\n";
+        
+        // arriba obtenemos el inicio pero ahora lo cambiamos el valor para que sea el siguiente elemento.
+        // ahora elemento tendra el valor del nodo que sigue
+        elemento = elemento->siguiente;
+    }
+    
+    // cuando se termina de escribir en el archivo, se cierra el proceso de escritura para que termine de escribir, sino se cierra nunca se guarda lo que escribiste por que se queda en el buffer.
+    ArchivoResultados.close();
+    
     return 0;
 }
