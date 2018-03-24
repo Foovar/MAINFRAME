@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA21E7321FE0E4A4008EA068 /* Ejercicio04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA21E7301FE0E4A4008EA068 /* Ejercicio04.cpp */; };
 		FAF61C501FDE4A2700F9AE52 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF61C4F1FDE4A2700F9AE52 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA21E7301FE0E4A4008EA068 /* Ejercicio04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ejercicio04.cpp; sourceTree = "<group>"; };
 		FAF61C4C1FDE4A2700F9AE52 /* EXAMEN FINAL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "EXAMEN FINAL"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF61C4F1FDE4A2700F9AE52 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FAF61C571FDE583D00F9AE52 /* ListaSimple.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListaSimple.hpp; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				FAF61C4F1FDE4A2700F9AE52 /* main.cpp */,
 				FAF61C571FDE583D00F9AE52 /* ListaSimple.hpp */,
+				FA21E7301FE0E4A4008EA068 /* Ejercicio04.cpp */,
 			);
 			path = "EXAMEN FINAL";
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF61C501FDE4A2700F9AE52 /* main.cpp in Sources */,
+				FA21E7321FE0E4A4008EA068 /* Ejercicio04.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
